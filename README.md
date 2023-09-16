@@ -1,6 +1,7 @@
 # CS488 Final Project by Nimun Bajwa
 
-Enhanced ray tracer built in C++ that successfully simulates paths of light to create realistic rendering of 3D Lua scenes
+Enhanced ray tracer built in C++ that successfully simulates paths of light to create realistic rendering of 3D Lua scenes.
+
 Provided support for complex primitives, texture mapping, reflection and refraction, transparent surfaces, and shadows
 
 ### How to run:
