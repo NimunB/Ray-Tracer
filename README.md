@@ -28,15 +28,17 @@ Cones, Cylinders, and Planes were added as new primitives to the modeling langua
   <tr>
     <td align="center">
       <img src="demoPics/Primitives/primitives.png" alt="Primitives" style="width: 100%;">
-      <p align="center"><i>Primitives</i></p>
+      <p align="center"><i>Sphere, Cylinder, Cone</i></p>
     </td>
   </tr>
   <tr>
     <td align="center">
       <img src="demoPics/Primitives/sheet.png" alt="Sheet" style="width: 100%;">
+      <p align="center"><i>Sheet</i></p>
     </td>
     <td align="center">
       <img src="demoPics/Primitives/floor.png" alt="Floor" style="width: 100%;">
+      <p align="center"><i>3D Room made from sheet primitives</i></p>
     </td>
   </tr>
 </table>
