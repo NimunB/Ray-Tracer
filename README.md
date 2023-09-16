@@ -79,17 +79,17 @@ Texture mapping was implemented for spheres, cylinders, cones, and planes. For s
 Refraction was implemented by calculating the refracted ray from Snell's law, and recursively sending these refraction rays. These rays contributed to the color decision using Fresnel's coefficient. To prevent infinite recursion, there was a maximum depth limit to how many times a ray can be reflected or refracted.
 
 <table>
-  <tr>
-    <td align="center">
-      <img src="demoPics/Refraction/floorRefraction.png" alt="Refraction 1" style="width: 100%;">
-    </td>
-  </tr>
-  <tr>
+   <tr>
     <td align="center">
       <img src="demoPics/Refraction/refraction.png" alt="Refraction 2" style="width: 100%;">
     </td>
     <td align="center">
       <img src="demoPics/Refraction/refractionOld.png" alt="Refraction 3" style="width: 100%;">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="demoPics/Refraction/floorRefraction.png" alt="Refraction 1" style="width: 100%;">
     </td>
   </tr>
 </table>
