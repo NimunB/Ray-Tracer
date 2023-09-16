@@ -26,18 +26,13 @@ shadows
 Cones, Cylinders, and Planes were added as new primitives to the modeling language. They were implemented by finding using their implicit equations in the intersection test.
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="https://raw.githubusercontent.com/NimunB/Ray-Tracer/main/demoPics/Primitives/primitives.png" alt="primitives" width="30%">
-    <img src="https://raw.githubusercontent.com/NimunB/Ray-Tracer/main/demoPics/Primitives/sheet.png" alt="sheet" width="30%">
-    <img src="https://raw.githubusercontent.com/NimunB/Ray-Tracer/main/demoPics/Primitives/floor.png" alt="floor" width="30%">
+    <img src="https://github.com/NimunB/Ray-Tracer/assets/32827637/d76cf46e-fc01-4406-8b16-ce54eefa4e78" alt="primitives" width="30%">
+    <img src="https://github.com/NimunB/Ray-Tracer/assets/32827637/4c463f98-ffe0-429e-ac2f-26d04cfa1c66" alt="sheet" width="30%">
+    <img src="https://github.com/NimunB/Ray-Tracer/assets/32827637/d92de6b7-60d4-4eb5-a168-a54a675dd095" alt="floor" width="30%">
 </div>
 
 ## Texture Mapping
 Texture mapping was implmented for spheres, cylinders, cones, and planes. For spheres, spherical coordinates are used. Cones and cylinders both use cylindrical coordinates.
-![sphereTM](https://github.com/NimunB/Ray-Tracer/assets/32827637/563039d9-f52c-4158-8171-efc2c45db35a)
-![sheetTM](https://github.com/NimunB/Ray-Tracer/assets/32827637/9c8cd00e-d287-44b0-bcf9-dfedc9a6c1b1)
-![floorTM](https://github.com/NimunB/Ray-Tracer/assets/32827637/ae726e17-97c3-4267-a30f-5faa5927c3fa)
-![cylinderTM](https://github.com/NimunB/Ray-Tracer/assets/32827637/dd3fdb44-5955-44db-9e3e-1919746bcb83)
-![coneTM](https://github.com/NimunB/Ray-Tracer/assets/32827637/6d70ff1f-dbdd-474e-bc5c-af0389cec0b7)
 
 
 ## Refraction
