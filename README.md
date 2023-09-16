@@ -24,7 +24,11 @@ shadows
 
 ## New Primitives
 Cones, Cylinders, and Planes were added as new primitives to the modeling language. They were implemented by finding using their implicit equations in the intersection test.
-
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://github.com/NimunB/Ray-Tracer/demoPics/Primitives/primitives.png" alt="primitives" width = "30%">
+    <img src="https://github.com/NimunB/Ray-Tracer/demoPics/Primitives/sheet.png" alt="sheet" width = "30%">
+    <img src="https://github.com/NimunB/Ray-Tracer/demoPics/Primitives/floor.png" alt="floor" width = "30%">
+</div>
 ## Texture Mapping
 Texture mapping was implmented for spheres, cylinders, cones, and planes. For spheres, spherical coordinates are used. Cones and cylinders both use cylindrical coordinates.
 
