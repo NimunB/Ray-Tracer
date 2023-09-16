@@ -130,10 +130,10 @@ Anti-aliasing was implemented in the form of regular sampling. This was done by 
   </tr>
   <tr>
     <td align="center">
-      <img src="demoPics/AntiAliasing/glossyReflection2.png" alt="Glossy Reflection 2" style="width: 100%;">
+      <img src="demoPics/AntiAliasing/glossyReflection.png" alt="Aliasing Glossy Reflection" style="width: 100%;">
     </td>
     <td align="center">
-      <img src="demoPics/AntiAliasing/glossyReflection1.png" alt="Glossy Reflection 1" style="width: 100%;">
+      <img src="demoPics/AntiAliasing/glossyReflection2.png" alt="Anti-Aliasing Glossy Reflection" style="width: 100%;">
     </td>
   </tr>
 </table>
