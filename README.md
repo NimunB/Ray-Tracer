@@ -25,9 +25,9 @@ shadows
 ## New Primitives
 Cones, Cylinders, and Planes were added as new primitives to the modeling language. They were implemented by finding using their implicit equations in the intersection test.
 
-![Primitives](demoPics/Primitives/primitives.png){ width=30% }
+![Primitives](demoPics/Primitives/primitives.png){ width=10% }
 ![Sheet](demoPics/Primitives/sheet.png){ width=30% }
-![Floor](demoPics/Primitives/floor.png){ width=30% }
+![Floor](demoPics/Primitives/floor.png){ width=10% }
 
 ## Texture Mapping
 Texture mapping was implmented for spheres, cylinders, cones, and planes. For spheres, spherical coordinates are used. Cones and cylinders both use cylindrical coordinates.
