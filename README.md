@@ -24,29 +24,50 @@ shadows
 
 ## New Primitives
 Cones, Cylinders, and Planes were added as new primitives to the modeling language. They were implemented by finding using their implicit equations in the intersection test.
+![sheet](https://github.com/NimunB/Ray-Tracer/assets/32827637/bf299ccd-f035-4ce8-a409-d6b94554c255)
+![primitives](https://github.com/NimunB/Ray-Tracer/assets/32827637/aa58f1ef-a3fd-49cb-bdf2-af37534fb575)
+![floor](https://github.com/NimunB/Ray-Tracer/assets/32827637/0d761569-f55e-4647-b549-58d8327c2245)
 
-<div style="display: flex; justify-content: space-between;">
-    <img src="https://github.com/NimunB/Ray-Tracer/assets/32827637/d76cf46e-fc01-4406-8b16-ce54eefa4e78" alt="primitives" width="30%">
-    <img src="https://github.com/NimunB/Ray-Tracer/assets/32827637/4c463f98-ffe0-429e-ac2f-26d04cfa1c66" alt="sheet" width="30%">
-    <img src="https://github.com/NimunB/Ray-Tracer/assets/32827637/d92de6b7-60d4-4eb5-a168-a54a675dd095" alt="floor" width="30%">
-</div>
 
 ## Texture Mapping
 Texture mapping was implmented for spheres, cylinders, cones, and planes. For spheres, spherical coordinates are used. Cones and cylinders both use cylindrical coordinates.
+![sphereTM](https://github.com/NimunB/Ray-Tracer/assets/32827637/3c0c9f07-829d-4912-9408-be9b54a5d44d)
+![sheetTM](https://github.com/NimunB/Ray-Tracer/assets/32827637/471d40b2-ed3f-4b5d-bf09-96b7d74986bf)
+![floorTM](https://github.com/NimunB/Ray-Tracer/assets/32827637/cbe67196-858d-41fc-9f05-036e6f006378)
+![cylinderTM](https://github.com/NimunB/Ray-Tracer/assets/32827637/ae550cdf-5235-4cb9-9a13-263a7451bba2)
+![coneTM](https://github.com/NimunB/Ray-Tracer/assets/32827637/78561845-6e36-4c2f-88f4-d266538b291f)
 
 
 ## Refraction
 Refraction was implemented by calculating the refracted ray from Snell's law, and recursively sending these refraction rays. These rays contributed to the color decision using fresnel's coefficient. To prevent infinite recursion, there was a maximum depth limit to how many times a ray can be reflected or refracted.
+![refractionOld](https://github.com/NimunB/Ray-Tracer/assets/32827637/fc5e5ba2-3b69-48cd-a7a3-6406b55e878b)
+![refraction](https://github.com/NimunB/Ray-Tracer/assets/32827637/6775ed2c-21d9-406b-bdc1-04c7cfee331d)
+![floorRefraction](https://github.com/NimunB/Ray-Tracer/assets/32827637/0af14fe7-6b69-44d1-8977-5094386c3f00)
+
 
 ## Glossy Reflection
 Glossy reflection was implemented by adding glossiness to the gr.material command as a parameter. Multiple "glossy" reflection rays were then sent after perturbing their surface normals randomly.
+![glossyReflection2](https://github.com/NimunB/Ray-Tracer/assets/32827637/6dde9902-ebd2-4d87-bd7b-b392015bafed)
+![glossyReflection1](https://github.com/NimunB/Ray-Tracer/assets/32827637/b43204b1-f2ac-422b-80e1-f142761a11aa)
+
 
 ## Anti-Aliasing
 Anti-aliasing was implemented in the form of regular sampling. This was done by sampling multiple points within a given pixel, and averaging the color for the pixel.
+![sphereTM2](https://github.com/NimunB/Ray-Tracer/assets/32827637/0a575cca-27f3-4f7e-a779-d99bf7ce7c64)
+![sphereTM](https://github.com/NimunB/Ray-Tracer/assets/32827637/7ab34747-90b5-4a73-a419-436b26c64a96)
+![primitives2](https://github.com/NimunB/Ray-Tracer/assets/32827637/6e9e7913-c21d-4b9f-9721-ba8e5816458f)
+![primitives](https://github.com/NimunB/Ray-Tracer/assets/32827637/431f336b-8b41-464a-b0c1-c657aedf181f)
+![glossyReflection2](https://github.com/NimunB/Ray-Tracer/assets/32827637/748ecf69-8511-4760-ad85-a81878c79d0f)
+![glossyReflection](https://github.com/NimunB/Ray-Tracer/assets/32827637/a6bf1c17-5aec-47b0-950c-df168703bb2b)
 
 ## Final Scene
 Incorporates texture mapping, reflection, refraction, primitives, glossy reflection. Was meant to simulate an art gallery.
+![FINALSCENE](https://github.com/NimunB/Ray-Tracer/assets/32827637/7d3da585-e8de-4b07-915a-6dab254f37e2)
+
 
 ## Extra Objective: Reflection
 Note: This was my extra objective in A4.
 Implemented by using Snell's law to calculate the reflected ray, and recursively incorporating that in the color calculation according to fresnel's coefficient.
+![reflection](https://github.com/NimunB/Ray-Tracer/assets/32827637/563df542-9317-4efd-9a55-b98eacbd129b)
+![blueReflection](https://github.com/NimunB/Ray-Tracer/assets/32827637/24a2ec33-589a-4e6c-9f72-2afd5b990459)
+
