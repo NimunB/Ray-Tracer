@@ -29,6 +29,12 @@ Cones, Cylinders, and Planes were added as new primitives to the modeling langua
 ![Primitives](demoPics/Primitives/primitives.png)
 ![Floor](demoPics/Primitives/floor.png)
 
+<div class="one-half column">
+    <img class="u-max-full-width zoomImg" type="image/png" src="demoPics/Primitives/primitives.png"/>
+    <img class="u-max-full-width zoomImg" type="image/png" src="demoPics/Primitives/sheet.png"/>
+    <img class="u-max-full-width zoomImg" type="image/png" src="demoPics/Primitives/floor.png"/>
+</div>
+
 ## Texture Mapping
 Texture mapping was implmented for spheres, cylinders, cones, and planes. For spheres, spherical coordinates are used. Cones and cylinders both use cylindrical coordinates.
 
