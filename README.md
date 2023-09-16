@@ -68,6 +68,11 @@ Texture mapping was implemented for spheres, cylinders, cones, and planes. For s
       <img src="demoPics/TextureMapping/sphereTM.png" alt="Globe (Sphere) Texture Mapping" style="width: 100%;">
     </td>
   </tr>
+  <tr>
+    <td align="center">
+      <img src="demoPics/TextureMapping/floorTM.png" alt="Room Texture Mapping" style="width: 100%;">
+    </td>
+  </tr>
 </table>
 
 ## Refraction
