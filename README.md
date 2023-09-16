@@ -123,7 +123,7 @@ Glossy reflection was implemented by adding glossiness to the gr.material comman
 </table>
 
 ## Anti-Aliasing
-Anti-aliasing was implemented in the form of regular sampling. This was done by sampling multiple points within a given pixel, and averaging the color for the pixel.
+Anti-aliasing was implemented in the form of regular sampling. This was done by sampling multiple points within a given pixel, and averaging the color for the pixel. It is meant to generate a **smoother** image.
 
 <table>
   <tr>
