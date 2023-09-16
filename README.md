@@ -92,14 +92,17 @@ Refraction was implemented by calculating the refracted ray from Snell's law, an
    <tr>
     <td align="center">
       <img src="demoPics/Refraction/refraction.png" alt="Refraction 2" style="width: 100%;">
+      <p align="center"><i>Fresnel Coeffient = 0.15</i></p>
     </td>
     <td align="center">
       <img src="demoPics/Refraction/refractionOld.png" alt="Refraction 3" style="width: 100%;">
+      <p align="center"><i>Fresnel Coeffient = 0.30</i></p>
     </td>
   </tr>
   <tr>
     <td align="center">
       <img src="demoPics/Refraction/floorRefraction.png" alt="Refraction 1" style="width: 100%;">
+      <p align="center"><i>Kind of works - can see distorted tiles on sphere</i></p>
     </td>
   </tr>
 </table>
@@ -125,25 +128,31 @@ Anti-aliasing was implemented in the form of regular sampling. This was done by 
   <tr>
     <td align="center">
       <img src="demoPics/AntiAliasing/sphereTM.png" alt="Aliasing Sphere" style="width: 100%;">
+      <p align="center"><i>Texture-mapped Sphere with aliasing</i></p>
     </td>
     <td align="center">
       <img src="demoPics/AntiAliasing/sphereTM2.png" alt="Anti-Aliasing Sphere" style="width: 100%;">
+      <p align="center"><i>Texture-mapped Sphere with Anti-Aliasing</i></p>
     </td>
   </tr>
   <tr>
     <td align="center">
       <img src="demoPics/AntiAliasing/primitives.png" alt="Aliasing Primitives" style="width: 100%;">
+      <p align="center"><i>Primitives with aliasing</i></p>
     </td>
     <td align="center">
       <img src="demoPics/AntiAliasing/primitives2.png" alt="Anti-Aliasing Primitives" style="width: 100%;">
+      <p align="center"><i>Primitives with Anti-Aliasing</i></p>
     </td>
   </tr>
   <tr>
     <td align="center">
       <img src="demoPics/AntiAliasing/glossyReflection.png" alt="Aliasing Glossy Reflection" style="width: 100%;">
+      <p align="center"><i>Glossy Reflection with aliasing</i></p>
     </td>
     <td align="center">
       <img src="demoPics/AntiAliasing/glossyReflection2.png" alt="Anti-Aliasing Glossy Reflection" style="width: 100%;">
+      <p align="center"><i>Glossy Reflection with Anti-Aliasing</i></p>
     </td>
   </tr>
 </table>
@@ -152,6 +161,7 @@ Anti-aliasing was implemented in the form of regular sampling. This was done by 
 Incorporates texture mapping, reflection, refraction, primitives, glossy reflection. Was meant to simulate an art gallery.
 
 ![FINALSCENE](demoPics/FinalScene/FINALSCENE.png)
+<p align="center"><i>Art Gallery Final Scene</i></p>
 
 ## Extra Objective: Reflection
 Note: This was my extra objective in A4.
@@ -161,9 +171,11 @@ Implemented by using Snell's law to calculate the reflected ray, and recursively
   <tr>
     <td align="center">
       <img src="demoPics/Reflection/reflection.png" alt="Reflection" style="width: 100%;">
+      <p align="center"><i>Reflective Primitives</i></p>
     </td>
     <td align="center">
       <img src="demoPics/Reflection/blueReflection.png" alt="Blue Reflection" style="width: 100%;">
+      <p align="center"><i>Reflective Blue Spheres</i></p>
     </td>
   </tr>
 </table>
