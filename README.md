@@ -33,6 +33,12 @@ Cones, Cylinders, and Planes were added as new primitives to the modeling langua
 
 ## Texture Mapping
 Texture mapping was implmented for spheres, cylinders, cones, and planes. For spheres, spherical coordinates are used. Cones and cylinders both use cylindrical coordinates.
+![sphereTM](https://github.com/NimunB/Ray-Tracer/assets/32827637/563039d9-f52c-4158-8171-efc2c45db35a)
+![sheetTM](https://github.com/NimunB/Ray-Tracer/assets/32827637/9c8cd00e-d287-44b0-bcf9-dfedc9a6c1b1)
+![floorTM](https://github.com/NimunB/Ray-Tracer/assets/32827637/ae726e17-97c3-4267-a30f-5faa5927c3fa)
+![cylinderTM](https://github.com/NimunB/Ray-Tracer/assets/32827637/dd3fdb44-5955-44db-9e3e-1919746bcb83)
+![coneTM](https://github.com/NimunB/Ray-Tracer/assets/32827637/6d70ff1f-dbdd-474e-bc5c-af0389cec0b7)
+
 
 ## Refraction
 Refraction was implemented by calculating the refracted ray from Snell's law, and recursively sending these refraction rays. These rays contributed to the color decision using fresnel's coefficient. To prevent infinite recursion, there was a maximum depth limit to how many times a ray can be reflected or refracted.
