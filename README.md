@@ -1,7 +1,7 @@
 # CS488 Final Project by Nimun Bajwa
 
-Enhanced ray tracer in C++ that successfully simulates paths of light to create realistic rendering of 3D Lua scenes
-Provided support for complex primitives, texture mapping, light reflection and refraction, transparent surfaces, and shadows
+Enhanced ray tracer built in C++ that successfully simulates paths of light to create realistic rendering of 3D Lua scenes
+Provided support for complex primitives, texture mapping, reflection and refraction, transparent surfaces, and shadows
 
 ### How to run:
 
@@ -22,7 +22,7 @@ Provided support for complex primitives, texture mapping, light reflection and r
 # CS 488 Ray Tracer Demo
 
 ## New Primitives
-Cones, Cylinders, and Planes were added as new primitives to the modeling language. They were implemented by finding using their implicit equations in the intersection test.
+Cones, Cylinders, and Planes were added as new primitives to the modeling language. They were implemented by finding using their implicit equations in the intersection tests.
 
 <table>
   <tr>
