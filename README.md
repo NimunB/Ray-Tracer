@@ -114,18 +114,18 @@ Anti-aliasing was implemented in the form of regular sampling. This was done by 
 <table>
   <tr>
     <td align="center">
-      <img src="demoPics/AntiAliasing/sphereTM2.png" alt="Sphere Texture Mapping 2" style="width: 100%;">
+      <img src="demoPics/AntiAliasing/sphereTM.png" alt="Aliasing Sphere" style="width: 100%;">
     </td>
     <td align="center">
-      <img src="demoPics/AntiAliasing/sphereTM.png" alt="Sphere Texture Mapping" style="width: 100%;">
+      <img src="demoPics/AntiAliasing/sphereTM2.png" alt="Anti-Aliasing Sphere" style="width: 100%;">
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="demoPics/AntiAliasing/primitives2.png" alt="Primitives 2" style="width: 100%;">
+      <img src="demoPics/AntiAliasing/primitives.png" alt="Aliasing Primitives" style="width: 100%;">
     </td>
     <td align="center">
-      <img src="demoPics/AntiAliasing/primitives.png" alt="Primitives" style="width: 100%;">
+      <img src="demoPics/AntiAliasing/primitives2.png" alt="Anti-Aliasing Primitives" style="width: 100%;">
     </td>
   </tr>
   <tr>
