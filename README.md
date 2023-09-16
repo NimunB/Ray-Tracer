@@ -25,10 +25,6 @@ shadows
 ## New Primitives
 Cones, Cylinders, and Planes were added as new primitives to the modeling language. They were implemented by finding using their implicit equations in the intersection test.
 
-![Sheet](demoPics/Primitives/sheet.png)
-![Primitives](demoPics/Primitives/primitives.png)
-![Floor](demoPics/Primitives/floor.png)
-
 <div class="one-half column">
     <img class="u-max-full-width zoomImg" type="image/png" src="demoPics/Primitives/primitives.png"/>
     <img class="u-max-full-width zoomImg" type="image/png" src="demoPics/Primitives/sheet.png"/>
