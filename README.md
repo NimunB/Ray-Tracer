@@ -46,7 +46,7 @@ Texture mapping was implemented for spheres, cylinders, cones, and planes. For s
 <table>
   <tr>
     <td align="center">
-      <img src="demoPics/TextureMapping/sphereTM.png" alt="Sphere Texture Mapping" style="width: 100%;">
+      <img src="demoPics/TextureMapping/sunset.png" alt="Sunset Texture" style="width: 100%;">
     </td>
     <td align="center">
       <img src="demoPics/TextureMapping/sheetTM.png" alt="Sheet Texture Mapping" style="width: 100%;">
@@ -54,15 +54,18 @@ Texture mapping was implemented for spheres, cylinders, cones, and planes. For s
   </tr>
   <tr>
     <td align="center">
-      <img src="demoPics/TextureMapping/floorTM.png" alt="Floor Texture Mapping" style="width: 100%;">
+      <img src="demoPics/TextureMapping/cylinderTM.png" alt="Cylinder Texture Mapping" style="width: 100%;">
     </td>
     <td align="center">
-      <img src="demoPics/TextureMapping/cylinderTM.png" alt="Cylinder Texture Mapping" style="width: 100%;">
+      <img src="demoPics/TextureMapping/coneTM.png" alt="Cone Texture Mapping" style="width: 100%;">
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="demoPics/TextureMapping/coneTM.png" alt="Cone Texture Mapping" style="width: 100%;">
+      <img src="demoPics/TextureMapping/map.png" alt="Map Texture" style="width: 100%;">
+    </td>
+    <td align="center">
+      <img src="demoPics/TextureMapping/sphereTM.png" alt="Globe (Sphere) Texture Mapping" style="width: 100%;">
     </td>
   </tr>
 </table>
