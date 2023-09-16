@@ -28,6 +28,7 @@ Cones, Cylinders, and Planes were added as new primitives to the modeling langua
   <tr>
     <td align="center">
       <img src="demoPics/Primitives/primitives.png" alt="Primitives" style="width: 100%;">
+      <p align="center"><i>Primitives</i></p>
     </td>
   </tr>
   <tr>
