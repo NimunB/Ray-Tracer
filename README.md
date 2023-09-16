@@ -26,17 +26,17 @@ shadows
 Cones, Cylinders, and Planes were added as new primitives to the modeling language. They were implemented by finding using their implicit equations in the intersection test.
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
-    <div style="text-align: center;">
+    <div style="flex: 1; text-align: center;">
         <p>Primitives</p>
-        <img src="demoPics/Primitives/primitives.png" alt="Primitives" width="150">
+        <img src="demoPics/Primitives/primitives.png" alt="Primitives" style="max-width: 100%;" width="150">
     </div>
-    <div style="text-align: center;">
+    <div style="flex: 1; text-align: center;">
         <p>Sheet</p>
-        <img src="demoPics/Primitives/sheet.png" alt="Sheet" width="150">
+        <img src="demoPics/Primitives/sheet.png" alt="Sheet" style="max-width: 100%;" width="150">
     </div>
-    <div style="text-align: center;">
+    <div style="flex: 1; text-align: center;">
         <p>Floor</p>
-        <img src="demoPics/Primitives/floor.png" alt="Floor" width="150">
+        <img src="demoPics/Primitives/floor.png" alt="Floor" style="max-width: 100%;" width="150">
     </div>
 </div>
 
