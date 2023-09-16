@@ -50,30 +50,37 @@ Texture mapping was implemented for spheres, cylinders, cones, and planes. For s
   <tr>
     <td align="center">
       <img src="demoPics/TextureMapping/sunset.png" alt="Sunset Texture" style="width: 100%;">
+      <p align="center"><i>Sunset Texture Image</i></p>
     </td>
     <td align="center">
       <img src="demoPics/TextureMapping/sheetTM.png" alt="Sheet Texture Mapping" style="width: 100%;">
+      <p align="center"><i>Sheet Texture Mapping (Sunset)</i></p>
     </td>
   </tr>
   <tr>
     <td align="center">
       <img src="demoPics/TextureMapping/cylinderTM.png" alt="Cylinder Texture Mapping" style="width: 100%;">
+      <p align="center"><i>Cylinder Texture Mapping (Sunset)</i></p>
     </td>
     <td align="center">
       <img src="demoPics/TextureMapping/coneTM.png" alt="Cone Texture Mapping" style="width: 100%;">
+      <p align="center"><i>Cone Texture Mapping (Sunset)</i></p>
     </td>
   </tr>
   <tr>
     <td align="center">
       <img src="demoPics/TextureMapping/map.png" alt="Map Texture" style="width: 100%;">
+      <p align="center"><i>World Map Texture Image (Sunset)</i></p>
     </td>
     <td align="center">
       <img src="demoPics/TextureMapping/sphereTM.png" alt="Globe (Sphere) Texture Mapping" style="width: 100%;">
+      <p align="center"><i>Sphere Texture Mapping (World Map)</i></p>
     </td>
   </tr>
   <tr>
     <td align="center">
       <img src="demoPics/TextureMapping/floorTM.png" alt="Room Texture Mapping" style="width: 100%;">
+      <p align="center"><i>Room Texture Mapping</i></p>
     </td>
   </tr>
 </table>
